@@ -18,7 +18,7 @@ class MakeIPsList():
             except:
                 try: fp.close()
                 except: pass
-        if '-' in target:
+        if '-' in target and target.replace(".", "").replace("-", "").isdigit():
             self.target = list(set(self.target + get_ips_list_by_a2b(target)))
         elif '/' in target:
             self.target = list(set(self.target + get_ips_list_by_cidr(target)))
