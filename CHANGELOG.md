@@ -1,5 +1,11 @@
 # Changelog
 
+## 2019.03.26
+
+## 修改
+
+- [Perun/core/makeiplist.py](https://github.com/WyAtu/Perun/blob/master/core/makeipslist.py)设置目标为文件时，目标域名中出现-无法扫描的情况
+
 ## 2019.02.24
 
 ## 新增
